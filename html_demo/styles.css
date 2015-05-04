@@ -1,0 +1,14 @@
+body {
+  background: blue;
+  text-align: center;
+}
+
+h1 {
+  text-align: left;
+  background: #ccc;
+  border: 4px solid black;
+}
+
+body {
+  background : grey;
+}
