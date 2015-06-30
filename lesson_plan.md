@@ -24,7 +24,7 @@
 - Creating things is something we can all get on board with, and we'll do just that, today!
 
 ## Hyper Text Markup Language(45m)
-Show the ebay site. There's lots going on here. We're not going to be making this site or anything, but I want you get an idea that end of the day, it's just content.
+Show the google site. There's lots going on here. We're not going to be making this site or anything, but I want you get an idea that end of the day, it's just content.
 - Show elements in dev tools for ebay
 - Let's make some HTML!
 - for windows users, you can use notepad, for mac users you can use text edit
