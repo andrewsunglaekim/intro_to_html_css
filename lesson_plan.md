@@ -165,6 +165,9 @@ If time allows:
 
 ### Documentation
 [HTML documentation](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
 [Getting Started with CSS](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started)
+
 [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+
 [CSS tricks alamanac](https://css-tricks.com/almanac/)
