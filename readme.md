@@ -29,7 +29,7 @@ Show the google site. There's lots going on here. We're not going to be making t
 - Let's make some HTML!
 - for windows users, you can use notepad, for mac users you can use text edit
 - lets see if we can create a rudimentary website!
-  - open up textedit/notepad
+  - open up textedit/notepad or Sublime Text if you have it.
 - as we go, put different elements we'll be using throughout the class
 ```html
 <!DOCTYPE html>
