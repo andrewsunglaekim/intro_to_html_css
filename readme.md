@@ -200,7 +200,16 @@ Let's add some footer content to it. We'll be using the `<footer>` tag.
 </html>
 ```
 
-> The anchor tag(`<a>`) is used to create links to other sites. It has an attribute `href`. Whatever is in quotes after the `href=` is the link that it will go to.
+> The anchor tag(`<a>`) is used to create links to other sites. It has an attribute `href`. Whatever is in quotes after the `href=` is the link that it will go to. You can even place an `<img>` tag inside of an anchor, so that the image will be a clickable image that sends you to a link!
+
+### HTML - you do
+Using the `<section>` tag. Create another part of your website. It might contain things like:
+
+- headings(`h1` - `h6`)
+- paragraphs
+- images
+- anchors
+- maybe something from this [list](http://www.htmldog.com/references/html/tags/)
 
 That's it for HTML!
 
@@ -246,37 +255,56 @@ body{
 
 We're telling the html/css that were about to do something to all `body` elements. Theres only one in this case, but if it were `p` it would apply to all paragraphs. What follows the selector are some `{}` that act as delimiters for the CSS code we'll be putting in to be applied to what's selected.
 
- too ugly.... though
-[Color Picker](http://www.color-hex.com/)
+The stuff that goes inside `{}` are CSS declarations.
 
-- Use this link instead! to pick a color of your choosing
-- Lets align some text
+```
+background: blue;
+```
+
+Above is an example of one. You can have multiple declarations in a single rule. Each declaration consists of a property and value. In the declaration above, `background` is the property and `blue` is the value. Declarations are always ended with a `;`
+
+Another issue is that blue, is super ugly. Let pick a much nicer color using [Color Picker](http://www.color-hex.com/)
+
 ```
 body{
   background: blue;
   text-align: center;
 }
 ```
+### Cascading
+Let's talk about the C in CSS.
 
-Hmm, I think I like the content being centered, but I think it'd be really nice if my header was aligned to the left. Let's do eet!
+Add another body selector, add a declaration to change the color to a different one
 
-```
-body{
-  background:blue;
-  text-align:center
+Which one was applied to the body? blue? or the new color?
+
+(ST - WG) What can we insinuate about cascading based on what we've seen.
+
+> Although CSS rules are applied in a cascade like effect, there is something that supercedes that. It is CSS specificity. If you'd like to know more about CSS specificity check this [link](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
+
+### Sizing
+Let's talk about sizing, particularly the sizing of our images. Currently we are the whim of the image to know the physical size of it. It would be better if we could explicitly define how tall and wide it will be. Like this:
+
+```css
+img{
+  height: 400px;
+  width: 400px;
 }
-
-header{
-  text-align:left
-}
 ```
 
-Talk about "cascading", add another body selector, change the color and show which one shows up as the color
+> If the dimensions you write for this rule aren't the same ratio as the original image, your image will be warped. Additionally. You can specify the heigh and width of any element in an HTML page as well.
+
+### CSS - You do
+Look at [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+
+Try and utilize 5 or more properties from the list in the above link in your web application
 
 ### Bitballoon
 - sign up for an account
 - drag and drop your folder and your site is hosted!
+- share your site in disposable chat!
 
+### Moar CSS
 If time allows:
 - border
 - margin
