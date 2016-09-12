@@ -215,6 +215,11 @@ That's it for HTML!
 
 > We've just barely scratching surfaces in this class. If you'd like more information about HTML check out these [docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
+## Fresh Prince - You do
+We definitely haven't gone over all of the elements used in this exercise, but use your best intuition to make educated guesses.
+
+[Fresh Prince Exercise](https://github.com/ga-wdi-exercises/belair_biography)
+
 ## Cascading Style Sheets
 Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. There's so much to learn about CSS. If you're interested, there are many different resources out there!(check the bottom of the lesson plan for them!)
 
