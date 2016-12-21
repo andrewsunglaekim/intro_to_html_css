@@ -90,7 +90,7 @@ Again, nothing's changed. What kind of information do you think would go in the 
 
 If we look in our browser this time, something has changed! What is it?
 
-> It's often a misconception from people that do not code to assume what goes in the head is the stuff at the top of a web page. In reality, the `head` tag contains meta data. Things like, stylesheets, scripts, character sets, language encoding and other sorts of things like that. The `title` element gives our page a title and can be important for SEO. Additionally, looks at the chrome tab in your browser window!
+> It's often a misconception from people that do not code to assume what goes in the head is the stuff at the top of a web page. In reality, the `head` tag contains meta data. Things like, stylesheets, scripts, character sets, language encoding and other sorts of things like that. The `title` element gives our page a title and can be important for SEO. Additionally, look at the chrome tab in your browser window!
 
 ### Your first webpage
 
@@ -163,7 +163,7 @@ Let's add some main content to our webpage. We'll be using the `<main>`.
 
 > The only new element we've added is the `img` tag. Couple of new things for this tag. We'll be using an attribute for the first time. There are alot of use cases for attributes in HTML elements, this is just one of them. The `src` attribute provides where the image is coming from. Another thing to note is that `<img>` is a self closing tag.
 
-In order to create an image of a personal picture of yours. Place the picture that you'd like in your webpage in the *same* directory as that of you `index.html`(your webpage). Then link to it in the src with just the files name eg.:
+In order to create an image of a personal picture of yours. Place the picture that you'd like in your webpage in the *same* directory as that of your `index.html`(your webpage). Then link to it in the src with just the files name eg.:
 
 ```html
 <img src="my_pic.jpg">
