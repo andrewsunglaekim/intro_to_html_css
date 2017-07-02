@@ -191,7 +191,7 @@ Let's add some footer content to it. We'll be using the `<footer>` tag.
     <main>
       <h2>HTML introduction!</h2>
       <p>HTML is a markup language that allows a coder to create content for a website</p>
-      <img src='http://www.ilmuwebsite.com/wp-content/uploads/2014/05/html.jpg'>
+      <img src='https://placebear.com/200/300'>
     </main>
     <footer>
       <a href='https://www.facebook.com/mdndev'>Contact MDN on facebook!</a>
