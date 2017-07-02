@@ -155,7 +155,7 @@ Let's add some main content to our webpage. We'll be using the `<main>`.
     <main>
       <h2>HTML introduction!</h2>
       <p>HTML is a markup language that allows a coder to create content for a website</p>
-      <img src='http://www.ilmuwebsite.com/wp-content/uploads/2014/05/html.jpg'>
+      <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png'>
     </main>
   </body>
 </html>
